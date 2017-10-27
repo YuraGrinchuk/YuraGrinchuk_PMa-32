@@ -1,0 +1,40 @@
+$all_grey:grey;
+$smoke:WhiteSmoke;
+
+#lamp-tree-white-fon{
+	width:clac(100-50px);
+	height:770px;
+	padding-left:50px;
+}
+
+.lamp-tree-blocks{
+	width:550px;
+	height:550px;
+	display:inline-block;
+	float:left;
+	margin-left:50px;
+}
+.lamp-tree-foto{
+	width:100px;
+	height:100px;
+	display:inline-block;
+	float:left;
+	margin-right:20px;
+}
+.H-lamp-tree{
+	width:400px;
+	height:600px;
+	display:inline-block;
+	float:left;
+}
+.Head-tree-lamp{
+	color:$all_grey;
+	font-size:3em;
+	margin-bottom:30px;
+	margin-left:25px;
+}
+.text-tree-lamp{
+	color:$all_grey;
+	font-size:1.5em;
+	margin-left:25px;
+}

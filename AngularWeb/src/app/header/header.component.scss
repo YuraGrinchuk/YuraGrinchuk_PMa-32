@@ -1,0 +1,55 @@
+$violet_top:MediumVioletRed;
+$background_white:white;
+
+#headerdiv{
+	background-color:$violet_top;
+	width:calc(100%-40px);
+	height:20px;
+	padding-left:100px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0;
+}
+									/*MIXIN + MATH*/
+@mixin top_hrefs_height($vheight){
+	-webkit-top_hrefs_height: $vheight / 2;
+	-moz-top_hrefs_height: $vheight / 2;
+	-ms-top_hrefs_height: $vheight / 2;
+}
+.top_hrefs{@include top_hrefs_height(40px);}
+.top_hrefs{
+    width:20px;
+	margin-left:5px;
+	margin-right:5px;
+}
+#secondheader{
+	background-color:$background_white;
+	width:100%;
+	height:110px;
+	margin-bottom: 10px;
+}
+.artim_logo{
+	height:20px;
+	width:100px;
+	margin-top:30px;
+	margin-bottom:25px;
+	margin-left:100px;
+	display:inline-block;
+}
+.menu_hrefs{
+	height:20px;
+	font-size:1em;
+	font-family:Segoe UI,sans-serif;
+	font-weight:normal;
+    text-decoration:none;
+	color:black;
+}
+.menu-container{
+	float:right;
+	display:inline-block;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+
+}
