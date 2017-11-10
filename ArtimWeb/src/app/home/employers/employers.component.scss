@@ -1,0 +1,51 @@
+$all_grey:grey;
+$block_bottom:LightGrey;
+$smoke:WhiteSmoke;
+
+#employers-white-fon{
+	width:calc(100%-5px);
+	height:500px;
+	padding-top:100px;
+	padding-left:5px;
+}
+.employers-main-block{
+	width:300px;
+	height:510px;
+	background-color:$smoke;
+	display:inline-block;
+	float:left;
+	margin-left:30px;
+}
+.employers-photo{
+	margin-left:70px;
+	margin-top:60px;
+	width:150px;
+	height:150px;
+	border:8px solid $all_grey;
+	border-radius:100px;
+}
+.employer-name{
+	margin-top:30px;
+	text-align:center;
+	font-size:2em;
+	color:$all_grey;
+}
+.employer-job{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:30px;
+	font-size:1em;
+	color:$all_grey;
+}
+.employer-social{
+	width:300px;
+	height:40px;
+	background-color:$all_grey;
+	padding-bottom:30px;
+	padding-top:30px;
+}
+.social-icon{
+	width:40px;
+	height:40px;
+	margin-left:25px;
+}
